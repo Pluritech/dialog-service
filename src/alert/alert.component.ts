@@ -11,6 +11,7 @@ export class AlertComponent extends DialogComponent<AlertModel, boolean> impleme
 
   title: string;
   message: string;
+  btnLabel: string;
 
   constructor(dialogService: DialogService) {
     super(dialogService);

@@ -1,4 +1,5 @@
 export interface AlertModel {
-  title: string;
+  title?: string;
   message: string;
+  btnLabel?: string;
 }

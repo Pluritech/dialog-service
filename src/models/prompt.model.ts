@@ -1,9 +1,9 @@
 import { Validators } from '@angular/forms';
 export interface PromptModel {
-  title: string;
+  title?: string;
   fields: FieldModel[];
-  btnYes: string;
-  btnNo: string;
+  btnYes?: string;
+  btnNo?: string;
 }
 
 export interface FieldModel {
