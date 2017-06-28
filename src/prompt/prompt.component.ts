@@ -2,7 +2,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Component } from '@angular/core';
 import { DialogComponent, DialogService } from 'ng2-bootstrap-modal';
 
-import { PromptModel, FieldModel } from './prompt.interfaces';
+import { PromptModel, FieldModel } from './../models/prompt.model';
 
 @Component({
   selector: 'app-prompt',

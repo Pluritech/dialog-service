@@ -16,8 +16,8 @@
   "bugs": {
     "url": "https://github.com/Pluritech/dialog-service/issues"
   },
-  "module": "@pluritech/dialog-service.js",
-  "typings": "@pluritech/dialog-service.d.ts",
+  "module": "dialog-service.js",
+  "typings": "dialog-service.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",

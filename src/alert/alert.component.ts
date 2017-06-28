@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { DialogComponent, DialogService } from 'ng2-bootstrap-modal';
-export interface AlertModel {
-  title: string;
-  message: string;
-}
+
+import { AlertModel } from './../models/alert.model';
+
 @Component({
   selector: 'app-dialog-alert',
   templateUrl: './alert.component.html'

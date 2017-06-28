@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 import { DialogComponent, DialogService } from 'ng2-bootstrap-modal';
-export interface ConfirmModel {
-  title: string;
-  message: string;
-  btnYes: string;
-  btnNo: string;
-}
+
+import { ConfirmModel } from './../models/confirm.model';
+
 @Component({
   selector: 'app-dialog-confirm',
   templateUrl: './confirm.component.html'
