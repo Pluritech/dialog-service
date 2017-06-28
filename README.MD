@@ -41,7 +41,7 @@ import { DialogServiceModule } from '@pluritech/dialog-service';
     BrowserModule,
 
     // Specify the library as an import
-    DialogServiceModule
+    DialogServiceModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
