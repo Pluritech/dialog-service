@@ -7,7 +7,11 @@
       <div class="modal-body">
         <p>{{message || 'Tem certeza?'}}</p>
       </div>
-      <div class="modal-footer">
+      <div *ngIf="positionBtnYes === 'right'"  class="modal-footer">
+        <button type="button" class="btn {{btnNoClass}}" (click)="confirm(false)">{{btnNo || 'Cancelar'}}</button>
+        <button type="button" class="btn {{btnYesClass}}" (click)="confirm(true)">{{btnYes || 'Confirmar'}}</button>
+      </div>
+      <div *ngIf="positionBtnYes === 'left'"  class="modal-footer">
         <button type="button" class="btn {{btnYesClass}}" (click)="confirm(true)">{{btnYes || 'Confirmar'}}</button>
         <button type="button" class="btn {{btnNoClass}}" (click)="confirm(false)">{{btnNo || 'Cancelar'}}</button>
       </div>
