@@ -80,8 +80,8 @@ export class AppComponent {
       message: 'Hi, im alert confirm modal!',
       title: 'Confirm Modal Title',
       btnNoClass: 'btn-danger',
-      btnYesClass: 'btn-primary'
-      positionBtnYes: 'right'; // Default: Left
+      btnYesClass: 'btn-primary',
+      positionBtnYes: 'right' // Default: Left
     }).subscribe(res => console.log('openConfirm response', res));
     
     // Opennig Prompt Modal    
