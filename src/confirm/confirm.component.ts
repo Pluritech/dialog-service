@@ -15,6 +15,7 @@ export class ConfirmComponent extends DialogComponent<ConfirmModel, boolean> imp
   btnNo: string;
   btnYesClass: string = 'btn-success';
   btnNoClass: string = 'btn-primary';
+  positionBtnYes: string = 'left';
   constructor(dialogService: DialogService) {
     super(dialogService);
   }

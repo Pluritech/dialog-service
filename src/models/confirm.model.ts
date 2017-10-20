@@ -5,4 +5,5 @@ export interface ConfirmModel {
   btnNo?: string;
   btnYesClass?: string;
   btnNoClass?: string;
+  positionBtnYes: string;
 }
