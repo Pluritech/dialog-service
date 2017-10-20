@@ -8,8 +8,8 @@
         <p>{{message || 'Tem certeza?'}}</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" (click)="confirm(true)">{{btnYes || 'Confirmar'}}</button>
-        <button type="button" class="btn btn-primary" (click)="confirm(false)">{{btnNo || 'Cancelar'}}</button>
+        <button type="button" class="btn {{btnYesClass}}" (click)="confirm(true)">{{btnYes || 'Confirmar'}}</button>
+        <button type="button" class="btn {{btnNoClass}}" (click)="confirm(false)">{{btnNo || 'Cancelar'}}</button>
       </div>
     </div>
 </div>

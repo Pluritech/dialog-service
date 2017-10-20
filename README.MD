@@ -78,7 +78,9 @@ export class AppComponent {
       btnNo: 'Cancel',
       btnYes: 'Ok',
       message: 'Hi, im alert confirm modal!',
-      title: 'Confirm Modal Title'
+      title: 'Confirm Modal Title',
+      btnNoClass: 'btn-danger',
+      btnYesClass: 'btn-primary'
     }).subscribe(res => console.log('openConfirm response', res));
     
     // Opennig Prompt Modal    

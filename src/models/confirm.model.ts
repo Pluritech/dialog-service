@@ -3,4 +3,6 @@ export interface ConfirmModel {
   message?: string;
   btnYes?: string;
   btnNo?: string;
+  btnYesClass?: string;
+  btnNoClass?: string;
 }

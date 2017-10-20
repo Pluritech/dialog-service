@@ -13,6 +13,8 @@ export class ConfirmComponent extends DialogComponent<ConfirmModel, boolean> imp
   message: string;
   btnYes: string;
   btnNo: string;
+  btnYesClass: string = 'btn-success';
+  btnNoClass: string = 'btn-primary';
   constructor(dialogService: DialogService) {
     super(dialogService);
   }
