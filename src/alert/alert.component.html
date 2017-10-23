@@ -8,7 +8,7 @@
         <p>{{message || ''}}</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" (click)="confirm(true)">{{btnLabel || 'Ok'}}</button>
+        <button type="button" class="btn {{btnClass}}" (click)="confirm(true)">{{btnLabel || 'Ok'}}</button>
       </div>
     </div>
 </div>

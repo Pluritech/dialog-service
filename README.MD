@@ -70,7 +70,8 @@ export class AppComponent {
  public openModals() {
     // Opennig Alert Modal
     this.dialogModalService.openAlert({
-      message: 'Hi, im alert modal!'
+      message: 'Hi, im alert modal!',
+      btnClass: 'btn-primary'
     }).subscribe((res) => console.log('openAlert response', res));
     
     // Opennig Confirmation Modal
