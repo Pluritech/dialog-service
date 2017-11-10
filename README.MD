@@ -1,5 +1,5 @@
 # Dialog Service
-  This library abstract the job with modals bring modals pre-componentized as alert, confirm and prompt. This is built based on [ng2-bootstrap-modal](https://github.com/ankosoftware/ng2-bootstrap-modal).
+  This library abstracts the job bringing modals pre-componentized as alert, confirm and prompt. This is built based on [ng2-bootstrap-modal](https://github.com/ankosoftware/ng2-bootstrap-modal).
 
 ## Installation
 
