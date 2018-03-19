@@ -1,4 +1,4 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { NgModule, ModuleWithProviders, ApplicationRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -44,6 +44,10 @@ export * from './service/dialog.modal.service';
   ]
 })
 export class DialogServiceModule {
+  constructor(applicationRef: ApplicationRef) {
+    Object.defineProperty(applicationRef, '_rootComponents', {get: () => applicationRef['components']});
+  }
+
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: DialogServiceModule,

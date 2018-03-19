@@ -19,12 +19,12 @@
   "module": "dialog-service.js",
   "typings": "dialog-service.d.ts",
   "peerDependencies": {
-    "@angular/core": "^4.0.0",
+    "@angular/core": "^5.2.8",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4",
     "ng2-bootstrap-modal": "^1.0.1"
   },
   "dependencies": {
-    "@angular/forms": "^4.2.4"
+    "@angular/forms": "^5.2.8"
   }
 }
